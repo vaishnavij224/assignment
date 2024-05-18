@@ -1,0 +1,11 @@
+public class Add {
+	int add(int a,int b)
+	{
+		int sum=a+b;
+		return sum;
+	}
+	public static void main(String[] args) {
+		Add s=new Add();
+		System.out.println("Sum is "+s.add(78, 80));
+	}
+}
